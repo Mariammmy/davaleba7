@@ -1,4 +1,58 @@
 body {
-  background-image: url("../img/background.jpg");
-  background-color: #cccccc;
+    background-image: url("../img/background.jpg");
+    background-color: #cccccc;
 }
+
+.king{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    animation: mymove 8s infinite;
+}
+@keyframes mymove{
+    from {top: 500px;
+          left: 1180px; }
+     to {top: 560px;
+         left: 1100px;}
+}
+
+.knight{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    animation: move1 8s infinite;
+}
+@keyframes move1{
+    from {top: 350px;
+          left: 1240px; }
+     to {top: 450px;
+         left: 1200px;}
+}
+
+.birds{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    animation: move2 8s infinite;
+}
+@keyframes move2{
+    from{top: 150px;
+        left: 0px;}
+    to{top: 125px;
+      left: 50px;}
+}
+
+.birdss{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation: move3 10s infinite;
+}
+@keyframes move3{
+    from{top: 150px;
+        left: 200px;}
+    to{top: 125px;
+      left: 500px;}
+}
+
+
